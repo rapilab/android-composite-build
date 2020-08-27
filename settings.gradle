@@ -1,3 +1,4 @@
 include ':app'
 includeBuild 'standalone-android-gradle-plugin'
-rootProject.name = "My Application"
+
+rootProject.name = "Android Gradle Plugin Composite Build"
