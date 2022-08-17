@@ -1,5 +1,7 @@
 # Android Gradle Plugin Composite Build
 
+requirements: JDK 1.8
+
 1. clone code
 
 ```

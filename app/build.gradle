@@ -20,6 +20,10 @@ android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
 
+    lintOptions {
+        disable "AccidentalOctal", "AnnotationProcessorOnCompilePath", "UseOfBundledGooglePlayServices", "GradleCompatible", "DataBindingWithoutKapt", "GradleDependency", "GradleDeprecated", "GradleDeprecatedConfiguration", "OutdatedLibrary", "DevModeObsolete", "DuplicatePlatformClasses", "ExpiredTargetSdkVersion", "ExpiringTargetSdkVersion", "GradleGetter", "GradlePluginVersion", "HighAppVersionCode", "GradleIdeError", "LifecycleAnnotationProcessorWithJava8", "MinSdkTooLow", "NotInterpolated", "GradlePath", "GradleDynamicVersion", "NewerVersionAvailable", "RiskyLibrary", "StringShouldBeInt"
+    }
+
     defaultConfig {
         applicationId "com.example.myapplication"
         minSdkVersion 16
